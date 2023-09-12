@@ -1,0 +1,52 @@
+/* more distinct ACF fields for users */
+/*.acf-flexible-content .acf-fields,
+#post-body-content .meta-box-sortables .inside,
+.acf-postbox .inside,
+#wp-content-editor-container,
+#postexcerpt {
+	border-left: 4px solid #e3643e;
+}*/
+
+/* hide unimportant elements in admin */
+#wpfooter,
+#pageparentdiv .inside > select:not(#page_template),
+#pageparentdiv .inside > input,
+#pageparentdiv .inside > p,
+#wp-admin-bar-comments,
+#wp-admin-bar-wpseo-menu,
+#wp-admin-bar-updates,
+#wp-admin-bar-wp-logo,
+#wp-admin-bar-new-content,
+.mce-statusbar .mce-flow-layout,
+#revisionsdiv,
+#commentstatusdiv,
+#commentsdiv,
+#slugdiv,
+#authordiv,
+#content-score,
+#keyword-score,
+#postexcerpt .inside > p,
+#contextual-help-link-wrap,
+#set-post-thumbnail-desc,
+#minor-publishing-actions,
+.installer-plugin-update-tr {
+	display: none !important;
+}
+
+/* plugin advertismen */
+#cpt_info_box,
+.update-nag,
+.yoast-alert.notice.notice-warning.is-dismissible,
+#vc_license-activation-notice,
+div.fs-notice.promotion,
+div.fs-notice.fs-slug-ilab-media-tools,
+.notice.notice-info.is-dismissible {
+	display: none !important;
+}
+
+/* category description (optional) */
+.term-description-wrap,
+#description,
+.column-description {
+	display: none;
+}
